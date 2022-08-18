@@ -5,7 +5,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Estudando Java WEB" %>
 </h1>
 <br/>
 <a href="hello-servlet">Colocando um link no projeto</a>
