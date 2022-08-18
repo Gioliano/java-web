@@ -16,7 +16,7 @@
 <%
   int i = 10;
 %>
-<%--variavel instanciada, agora podemos fazer alguma opercao--%>
+<%--variavel instanciada, agora podemos fazer alguma operacao--%>
 <%
   i += 1;
   out.println(i);
@@ -26,9 +26,11 @@
 <%--    <h2>testando outra forma</h2>--%>
 <%--</jsp:text>--%>
 
-<h1><%out.println(title)%></h1>
+<h1><%out.println(title);%></h1>
 <div>
-    <p>${header["user-agent"]}
+    <p>${header["user-agent"]}</p>
+<%--    <p>${pageContext.request.queryString}</p>--%>
+<%--    <p>${request.getCookies}</p>--%>
 </div>
 
 </body>
